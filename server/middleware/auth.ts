@@ -1,1 +1,2 @@
-// auth middleware placeholder
+import { verifyToken } from "../utils/jwt.js";
+export default verifyToken;
